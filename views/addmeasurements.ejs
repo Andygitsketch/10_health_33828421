@@ -6,8 +6,9 @@
   <body>  
     <h1> add here your measurements and calculate</h1> 
     <form method="POST" action="/health/added"> 
-        height:<input id="height" type="number" name="height"/> 
-        wrist:<input id="wrist" type="number" name="wrist" /> <br>
+        height(cm)<input id="height" type="number" name="height" required/> <br>
+        wrist(cm)<input id="wrist" type="number" name="wrist" required/> <br>
+        
         <input type="button" value="calculate" /> 
     </form> 
 </body>  
