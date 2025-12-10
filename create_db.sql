@@ -2,9 +2,10 @@ CREATE DATABASE IF NOT EXISTS Body frame calculator;
 USE Body frame calculator;
 
 CREATE TABLE IF NOT EXISTS measurements (
-    id     INT AUTO_INCREMENT,
-    wrist  DECIMAL(3),
+    id      INT AUTO_INCREMENT,
+    wrist   DECIMAL(3),
     height  DECIMAL(3),
+    result  DECIMAL(3, 2),
     PRIMARY KEY(id));
 
 

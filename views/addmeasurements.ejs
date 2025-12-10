@@ -1,0 +1,20 @@
+<!doctype html> 
+<html>  
+  <head>  
+    <title><%=healthData.appName%></title> 
+  </head>  
+  <body>  
+    <h1> add here your measurements and calculate</h1> 
+    <form method="POST" action="/health/added"> 
+        height:<input id="height" type="number" name="height"/> 
+        wrist:<input id="wrist" type="number" name="wrist" /> <br>
+        <input type="button" value="calculate" /> 
+    </form> 
+</body>  
+</html>
+
+
+<!-- int height
+     int wrist
+     result = height/wrist
+     print ('result') -->
