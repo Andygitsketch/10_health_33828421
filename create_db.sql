@@ -1,5 +1,5 @@
-CREATE DATABASE IF NOT EXISTS Body frame calculator;
-USE Body frame calculator;
+CREATE DATABASE IF NOT EXISTS body_frame_calculator;
+USE body_frame_calculator;
 
 CREATE TABLE IF NOT EXISTS measurements (
     id      INT AUTO_INCREMENT,

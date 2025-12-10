@@ -1,0 +1,13 @@
+<DOCTYPE html> 
+   <html>
+    <body>
+        <ul>
+         <% for (let i =0;i <availableMeasurements.length; i++) {%>
+            
+            <% if (availableMeasurements[i].wrist!=undefined) %>
+            <li><%= availableMeasurements[i].wrist %>  </li>
+            <% } %>
+        </ul>
+    
+    </body>
+</html>
